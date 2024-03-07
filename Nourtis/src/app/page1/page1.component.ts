@@ -11,7 +11,7 @@ export class Page1Component implements OnInit {
   
 
   constructor() { 
-    this.ImagePath = '/assets/images/commrc.jpg'
+    this.ImagePath = '/assets/images/1.jpg'
     this.ImagePath1 = '/assets/images/NortisLogo.png'
     
   } 
