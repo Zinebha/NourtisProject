@@ -1,55 +1,157 @@
+.container{
+    width: 900px;
+    margin: 120px auto;
+   
+}
+
+.custom-image {
+    width: 190px;
+    margin-bottom: 26px;
+  }
+
+.image{
+    position: relative;
+    width: 500px;
+    height: 350px; 
+    margin-left : 50px;
+    display: block;
+    
+
+}
+
+.text-image {
+    position: absolute;
+    bottom: 0;
+    right: 38%; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: left;
+    display: block;
+  }
 
 * {
     margin: 0;
     padding: 0;
 }
-
-
-html, body {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex-1{
+    flex:1
+    
+   
     
 }
 
-.registration-form {
-    width: 500px;
-    padding: 40px;
-    border: 3px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.all{
+    display: flex;
+    border: 1px solid #ebebeb;
+    border-radius: 12px; 
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    
 }
+    
 
 
-.registration-form h1 {
+
+
+
+.all h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: medium;
+    text-align: left;
+    margin-left: 40px;
+
+    
 }
 
 
-.registration-form input[type="text"],
-.registration-form input[type="email"],
-.registration-form input[type="password"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+.all input[type="text"],
+.all input[type="email"],
+.all input[type="password"] {
+    width: 250px;
+    padding: 0px 30px;
+    margin-bottom: 20px; 
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 8px 0;
+    height:  30px;
+    margin-left: 30px ;
+    padding-right: 40px;
+    box-shadow: 0 4px 10px 0 #ebebeb;
+
+    
+}
+a {
+    color: #521eb3;
+    float: right;
+    height: 30px;
+    
+}
+.input-icon{
+    position: relative;
+}
+.fa-envelope, .fa-lock {
+    width: 2px;
+    position: absolute;
+    /*padding: 9px;*/
+    top: 7px;
+    left: 42px;
+    font-size: 15px;
+    line-height: 40px;
+    cursor: pointer;
+    color: #a8a8bcc7;
+  }
+  /* .eye{
+    width: 2px;
+    position: absolute;
+    top: 7px;
+    right: 42px;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    color: #6e6e74c7;
+
+  } */
+  .fa-eye:before {
+    content: "\f06e";
+    right: 18px;
+    position: absolute;
+    color: #28282dc7;
+    top: 21px;
+    font-size: 15px;
+    
 }
 
 
-.registration-form button {
-    width: 100%;
+.all button {
+    width: 90%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #7c0172;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-left: 30px;
+    padding: 0px 30px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+    margin: 8px 0;
+    height:  30px;
+    margin-left: 30px ;
+    padding-right: 40px;
+   
+    
+    
 }
 
-.registration-form button:hover {
-    background-color: #0056b3;
+.all button:hover {
+    background-color: #9e00b3;
+}
+.footer{
+    margin-left : 300px;
+    color: #656262;
+    
 }

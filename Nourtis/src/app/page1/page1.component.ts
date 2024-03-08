@@ -6,16 +6,18 @@ import { Component,OnInit } from '@angular/core';
   styleUrl: './page1.component.css'
 })
 export class Page1Component implements OnInit { 
-  ImagePath: string;
-  ImagePath1: string;
+  
   
 
   constructor() { 
-    this.ImagePath = '/assets/images/1.jpg'
-    this.ImagePath1 = '/assets/images/NortisLogo.png'
+    
     
   } 
   
+  ImagePath: string = "";
+  ImagePath1: string = "";
   ngOnInit() { 
+    this.ImagePath = '/assets/images/1.jpg'
+    this.ImagePath1 = '/assets/images/NortisLogo.png'
   } 
 }

@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit { 
  
-  //name: number;
+ 
 
   constructor() { 
     
-    //this.name=3
+    
   } 
   public ImagePath1: string = "";
   ngOnInit() { 
