@@ -11,29 +11,33 @@
 
 .image{
     position: relative;
-    width: 500px;
+    width: 501px;
     height: 350px; 
     margin-left : 50px;
     display: block;
+}
+.text-image {
+        position: absolute;
+        bottom: 0;
+        right: 65%; 
+        color: #ffffff; 
+        padding: 10px 20px; 
+        font-size: 20px; 
+        text-align: left;
+        display: block;
+        text-transform: uppercase;
+      }
+.img-ingenieur{
+    background-image: url(http://localhost:4200/assets/images/3.jpg);
+    width: 100%;
+    height: 320px;
+    position: relative;
+    background-size: cover;
+    padding: 10px;
+
+}
     
 
-}
-
-.text-image {
-    position: absolute;
-    bottom: 0;
-    right: 38%; 
-    color: #ffffff; 
-    padding: 10px 20px; 
-    font-size: 20px; 
-    text-align: left;
-    display: block;
-  }
-
-* {
-    margin: 0;
-    padding: 0;
-}
 .flex-1{
     flex:1
     
@@ -84,9 +88,12 @@
     
 }
 a {
-    color: #521eb3;
+    color: #711cdd;
     float: right;
     height: 30px;
+    line-height: 32px;
+    padding: 0px 95px;
+
     
 }
 .input-icon{
@@ -101,33 +108,19 @@ a {
     font-size: 15px;
     line-height: 40px;
     cursor: pointer;
-    color: #a8a8bcc7;
+    color: #d2d2ddc7;
   }
-  /* .eye{
-    width: 2px;
-    position: absolute;
-    top: 7px;
-    right: 42px;
-    font-size: 20px;
-    line-height: 40px;
-    cursor: pointer;
-    color: #6e6e74c7;
-
-  } */
   .fa-eye:before {
     content: "\f06e";
-    right: 18px;
+    right: 108px;
     position: absolute;
     color: #28282dc7;
-    top: 21px;
+    top: 19px;
     font-size: 15px;
     
 }
-
-
 .all button {
-    width: 90%;
-    padding: 10px;
+    width: 75%;
     background-color: #7c0172;
     color: #fff;
     border: none;
